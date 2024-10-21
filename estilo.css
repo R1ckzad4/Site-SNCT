@@ -1,0 +1,97 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,7 00&display=swap'); 
+
+*{ 
+    box-sizing: border-box; 
+    } 
+    body{ 
+    margin: 0 auto; 
+    padding: 15px; 
+    max-width: 1200px; 
+    } 
+    header{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    } 
+    li{ 
+    display: inline-block; 
+    margin: 20px; 
+    } 
+    a{ 
+    color: black; 
+    font-size: 20px; 
+    } 
+    a:hover{ 
+    color: #127fca; 
+    transition: 0.5 all; 
+    } 
+    .botao{ 
+    padding: 0; 
+    border: 3px solid #127fca; 
+    display: inline-block; 
+    padding: 5px ; 
+    border-radius: 15px; 
+    } 
+    h1{ 
+    font-family: "Lobster Two", sans-serif; 
+    font-weight: 200; 
+    color: #203cc8;
+    } 
+    main{ 
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 60px; 
+    } 
+    h2{ 
+    font-weight: 400; 
+    font-size: 50px; 
+    line-height: 10px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    } 
+    .h2-rick{ 
+    color: #c90e0e; 
+    } 
+    p{ 
+    max-width: 500px; 
+    line-height: 20px; 
+    } 
+    img{ 
+    padding-right: 50px; 
+    margin-left: 200px; 
+    } 
+    form{ 
+    display: flex; 
+    flex-direction: column; 
+    width: 70%; 
+    } 
+    form [type="submit"]{ 
+    height: 50px; 
+    padding: 15px; 
+    width: 50%; 
+    background-color: #203cc8; 
+    font-weight: bold; 
+    color: white; 
+    } 
+    input{ 
+    margin-top: 20px; 
+    height: 20px;
+    padding: 25px; 
+    border: 1px solid rgb(0, 0, 0); border-radius: 20px; 
+    font-size: 15px; 
+    } 
+    section{ 
+    display: inline-block; 
+    margin-top: 80px; 
+    margin-left: 5%; 
+    margin-right:5% ; 
+    height: 400px; 
+    } 
+    section{ 
+    width: 100% ; 
+    font-size: 50px; 
+    margin: 0; 
+    font-family: 'lobster', cursive; }
+    
+
